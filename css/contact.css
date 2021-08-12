@@ -1,0 +1,36 @@
+.contact-content{
+    height: 350px;
+    /* background-color: yellow; */
+    height: 100vh;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    background-image: url(../img/contact.jpg);
+    width: 100%;
+    height: inherit;
+    z-index: -1;
+    opacity: 0.2;
+}
+.contact-btn{
+    width: 81px;
+    margin-left: 12px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    justify-content: center;
+}
+.contact-btn:hover{
+    background-color: black;
+    color: white;
+}
